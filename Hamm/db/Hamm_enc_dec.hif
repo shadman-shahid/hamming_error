@@ -1,0 +1,156 @@
+Version 9.0 Build 132 02/25/2009 SJ Full Version
+18
+3344
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Hamm_enc_dec
+# storage
+db|Hamm_enc_dec.(0).cnf
+db|Hamm_enc_dec.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+Hamm_enc_dec.v
+16d32b83cacd184a67e35f945d46eb9
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+I0
+100
+PARAMETER_UNSIGNED_BIN
+DEF
+I1
+010
+PARAMETER_UNSIGNED_BIN
+DEF
+I2
+001
+PARAMETER_UNSIGNED_BIN
+DEF
+P0
+101
+PARAMETER_UNSIGNED_BIN
+DEF
+P1
+011
+PARAMETER_UNSIGNED_BIN
+DEF
+P2
+110
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+enc
+# storage
+db|Hamm_enc_dec.(1).cnf
+db|Hamm_enc_dec.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+Hamm_enc_dec.v
+16d32b83cacd184a67e35f945d46eb9
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+enc:comb_22
+}
+# macro_sequence
+
+# end
+# entity
+dec
+# storage
+db|Hamm_enc_dec.(2).cnf
+db|Hamm_enc_dec.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+Hamm_enc_dec.v
+16d32b83cacd184a67e35f945d46eb9
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+dec:comb_41
+}
+# macro_sequence
+
+# end
+# complete
+
